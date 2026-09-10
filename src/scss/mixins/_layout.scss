@@ -1,5 +1,5 @@
 /* stylelint-disable value-keyword-case */
-@import "sass:map";
+@use "sass:map";
 
 @mixin flex-layout($options) {
 

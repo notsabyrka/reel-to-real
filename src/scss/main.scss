@@ -1,11 +1,11 @@
 // базовые подключения
-@import "vars";
-@import "mixins";
-@import "fonts";
-@import "settings";
+@use "vars";
+@use "mixins";
+@use "fonts";
+@use "settings";
 
 // подключения компонентов страницы
-@import "./components/header";
+@use "./components/header";
 
 // тестовые стили, удалите их
 .page__body {
